@@ -6,14 +6,13 @@
 
 :root {
   --text-color: #fff;
-  --bg-url: url(./assets/bg-mobile.jpg)
+  --bg-url: url(./assets/bg-mobile.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
-  --surface-color:  rgba(255, 255, 255, 0.1);
-  --surface-color-hover:  rgba(255, 255, 255, 0.05);
-  --highlight-color:  rgba(255, 255, 255, 0.2);
+  --surface-color: rgba(255, 255, 255, 0.1);
+  --surface-color-hover: rgba(255, 255, 255, 0.05);
+  --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets.moon-starts.svg);
 }
-
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -23,4 +22,11 @@ body {
 body * {
   font-family: "Inter", sans-serif;
   color: var(--text-color);
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
