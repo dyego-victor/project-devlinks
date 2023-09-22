@@ -100,4 +100,11 @@ ul li a {
   border-radius: 8px;
   backdrop-filter: blur(4px);
   font-weight: 500;
+
+  transition: background 0.5s;
+}
+
+ul li a:hover {
+  background: var(--surface-color-hover);
+  border: 1.5px solid var(--text-color);
 }
