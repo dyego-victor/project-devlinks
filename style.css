@@ -80,3 +80,11 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 999px;
 }
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+}
